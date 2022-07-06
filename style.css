@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Fira Code', monospace;
+    text-align: justify;
 }
 
     
@@ -24,7 +25,7 @@ h2{
     background-size: cover;
 }
 .header-item{
-    color: white;
+    color: #e3fa73;
     width: 600px;
     height: 300px;
     text-align: center;
@@ -47,7 +48,7 @@ h2{
     padding: 8px 18px;
 }
 
-.donate-today, .donate-plan{
+.donate-today, .donate-plan, .my-update{
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -63,8 +64,8 @@ h2{
 .donate-today-item{
     background-color: rgb(247, 239, 239);
     border-radius: 5px;
-    width: 70px;
-    height: 60px;
+    width: 80px;
+    height: 70px;
     text-align: center;
 }
 #cool-item{
@@ -74,8 +75,11 @@ h2{
 
 #input-tk{
     text-align: center;
-    width: 500px;
+    width: 100%;
+    padding: 10px 0px;
+    background-color: white;
     border: none;
+    border-bottom: 2px solid rgb(119, 117, 117);
     margin-bottom: 10px;
 }
 .donate-plan-item1, .donate-plan-item2, .donate-plan-item3{
@@ -83,6 +87,7 @@ h2{
     width: 30%;
     padding-top: 15px;
     padding-left: 10px;
+    border-radius: 5px;
 
 }
 .donate-plan-item1{
@@ -93,6 +98,40 @@ h2{
 }
 .donate-plan-item3{
     background-color: rgb(247, 247, 190);
+}
+
+.latest-news{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.half-width{
+    width: 50%; 
+    padding: 10px 5px;
+}
+.half-width img{
+    width: 100%;
+    align-items: center;
+}
+
+
+.my-update{
+    margin-bottom: 50px;
+}
+.my-update-main{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fae5c0;
+}
+#input-email{
+    margin-right: -10px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 
