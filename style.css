@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Fira Code', monospace;
 }
 
     
@@ -14,6 +14,7 @@ h2{
 
 
 .header{
+    height: 400px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -24,10 +25,15 @@ h2{
 }
 .header-item{
     color: white;
-    width: 500px;
+    width: 600px;
     height: 300px;
     text-align: center;
 }
+
+.header-item h1{
+    color: #fa883c;
+}
+
 .link-btn1{
     padding: 10px 40px;
     color: white;
@@ -87,4 +93,16 @@ h2{
 }
 .donate-plan-item3{
     background-color: rgb(247, 247, 190);
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer h3{
+    color: orangered;
+    font-style: italic;
 }
